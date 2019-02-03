@@ -1,2 +1,3 @@
-# Thinkful
-Exercises for Thinkful curriculum, 2019
+. Thinkful
+
+This repository houses exercises and assignments from the Thinkful Data Science Boot Camp, Feb - Aug 
