@@ -1,0 +1,126 @@
+Title: A/B testing drill, Unit 1 Lesson 4
+Author: Naomi Hernandez
+Date: 2019-03-21
+
+1) Does a new supplement help people sleep better?
+
+Two versions: We could use a placebo and the actual supplement.
+Sample: We would need to actually recruit people for this which introduces a source of bias. People who agree to participate in studies may differ in meaningful ways from people who do not participate in studies. However, we could start by recruiting people who are similar to the actual target of the new product. This is probably adults in reasonably good health who have trouble sleeping. I say 'in good health' because illness brings complicating factors and frequently disrupts sleep in its own right.
+
+Hypothesis: Our hypothesis is that people who take the supplement will sleep "better" than people who take the placebo. This should be differentiable via t-test with a suitably low value for alpha.
+
+Outcomes of interest: We can use several measures to operationally define "better" sleep. These might include:
+- Time required to fall asleep;
+- Number of times individuals wake up during sleeping period;
+- % of sleep spent in REM;
+- Energy levels following sleep; and
+- Mood following sleep.
+
+The first three can be measured via fitbit, which has the advantage of collecting data passively. Energy levels and mood could be collected via journal self-report. I might recommend smartphone app since interacting with one's phone is minimally invasive. However, self report is biased. In addition, not everyone has smartphones, though smartphone penetration has grown in recent years. Low income individuals in particular may be excluded from the study if we require smartphones. Depending on study funding we might be able to supply individuals with smartphones. Finally, we might be able to measure the fourth indirectly with the same fitbit that we would use to measure the other metrics by measuring activity levels.
+
+Other measures to ensure equivalent samples: Humans and sleep are complicated. We would want to ascertain a few things that might directly or indirectly impact sleep, including:
+- Gender. It's possible the effect is stronger in one gender over another.
+- Socioeconomic status. This can be estimated from prossion and zip code if we don't want to ask directly, or if individuals do not want to disclose this information.
+- Presence of sleep disorders. We don't have to exclude these people depending on our sample size and target audience, but they should at least be balanced equally between the experimental and control groups;
+- Other health issues, including recent surgeries, chronic conditions, cancer, MS, and fibromyalgia;
+- Night shift workers. Again, we don't have to exclude these individuals but they should at least be balanced equally between the two groups;
+- Serious mental health disorders that might impact sleep or the ability to stick to a regimine, including severe depression, bipolar disorder, anxiety, and schizophrenia;
+- Whether the individuals in both groups have taken their medication. Depending on our budget for a study, there are pill bottles with sensors that recognize how many pills remain in the container. This would help us throw out bad results due to non-compliance.
+
+2) Will a new uniform help a gym's business?
+Two options: In this case our control group could be our current uniforms and our experimental group could be our new uniform.
+
+Sample: The sample should come from our current gym members and prospective members. If we have more than one gym location that have similar demographics, we might try the new uniforms at one location and define the second as our control group. Ideally we would choose two locations in the same or very similar geographic areas--for example Grand Rapids and Muskegan. Different regions may introduce confounding factors and degrade the results. We would also want to conduct equivalent activities in both locations for the best results. For example, we would want to avoid launching additional promotional campaigns in both markets, and certainly we would want to avoid launching an additional promotional campaign at just one of the participating gyms. Finally, the more gyms available to participate in both the control and experimental groups the stronger our analysis will be.
+
+If we only have one location we will likely have to divide our control and experimental samples by time. If we can rent the uniforms we might run an experiment for one or two weeks only and compare membership outcomes to the preceeding month, as well as the same time period in the preceeding year to account for seasonality.
+
+Hypothesis: Our hypothesis should encompass different populations, including prosepctive members, current members, and former members. For example:
+- New uniforms will inspire more prospective members to join the gym than would join if we wore the old uniforms;
+- Current members who would otherwise allow them memberships to lapse would be inspired to continue with the gym; and
+- Assuming they have any way of finding out about our new uniforms, the new uniforms will impress former members and inspire them to become members again.
+In all cases, if we're interested in understanding the impact of the uniforms and only the uniforms we must be careful not to undertake new promotional efforts. This might result in former members being unaware of our uniform changes and therefore be outside the scope of the study.
+
+Outcomes of interest
+- Number of new memberships (can be separated further by former members vs never members);
+- Number of membership cancellations;
+- Number of ancillary services--i.e., add-ons not included in the base memberships, including personal training--purchased; and
+- Level of membership purchased if our gym has different membership tiers, as well as membership level upgrades.
+
+Ideally we would want to run the study for a long enough period of time to observe changes. If we don't have that option, we can supplement our observations with survey data. We would also want to avoid collecting data during December or January, unless we are specifically interested in the effect on memberships during the holiday season/ New Year. In that case we would need to compare our results to the previous year's outcomes. Particularly in the case of evaluating a single gym, we would want to establish seasonal and non-seasonal trends in membership to estimate a baseline.
+
+Other measures: In addition to our measures of interest we would want to collect information on other kinds of information on our study sample, including:
+- Demographic information on our control and experimental populations (age distribution, disposable income, type of employment, average health status, etc.); and
+- Recent trends in gyms, fitness, leisure, or other areas that might impact the likelihood of people purchasing or cancelling gym services.
+
+3) Will a new homepage improve my online exotic pet rental business?
+Two versions: Our control would be people who view our old homepage. Our experimental group would be the people who view our new webpage.
+
+Sample: Our control and experimental samples would both come from the individuals who navigate to our website. It should be easy enough to have two different page layouts and randomly assign half our traffic to view our original page an the other half could view our new page.
+
+Hypothesis: Our hypothesis is that our new design for our homepage will inspire more purchases, higher purchases amounts per transaction, more social media postings of rented animals inspiring other people to rent more animals.
+
+Specific outcomes might include:
+- Higher conversion rates. Individuals who see our new homepage are more likely to make a purchase;
+- Higher spending per purchase/individual.
+
+We might also want to hypothesize about the mechansim by which our new homepage will inspire increased sales. For example:
+- Our old homepage was disorganized and difficult to find specific species;
+- People don't understand why they would need/want to rent exotic pets. The new homepage displays common aspirational pet-renting scenarios, allowing relevant target populations to recognize themselves and their values.
+
+Outcome measures: We would want to measure the following in the control and experimental groups:
+- Conversion rates;
+- Price paid per transation;
+- Price paid per individual; and
+- Profit margin on purchased items.
+
+Other measures: We would want to collect additional information on our two samples, both to ensure that the groups are equivalent, as well as to explore the mechanisms leading to differences in our control and experimental groups. These most likely include:
+- Day of week and time of day for visit. If we've configured everything correctly there shouldn't be significant disparities between the control and experimental groups. Nevertheless, we want to be sure that we didn't make a mistake. In addition, we might want to correlate this information with other user activity information;
+- Type of purchase. This is particularly relevant is we hypothesized that people would be inspired to purchase the animals featured on the new website.
+- Demographic information. Is there a particular age range more likely to be interested in renting exotic pets? Gender?
+- Purpose for rental. This would have be self-reported where the other measures could be collected with user activity metrics. We could either present users with an optional survey after completing their purchase, or give them the opportunity to fill in information about the purpose of their puchase in an optional question while going through the purchase process.
+
+4) If I put "please read" in the email subject will more people read my emails?
+Two versions: One sample would have a subject without "please read", the other sample would have "please read."
+
+Samples: We are drawing both samples from individuals to whom we are already sending emails. If we're able to, we would want to choose recipients of emails that need to be sent to multiple individuals. Use cases for this include project managers trying to coordinate with multiple individuals, or communications email feeds intended to broadcast information to a consistent group of people.
+
+If the use case involves sending most emails to only one recipient, assembling samples will be more difficult. In this case we could hopefully identify classes of emails that the sender sends to multiple recipients with some regularity. For each subsequent email of that class, we could add 'please read' to every other or every third email until we have sent a sufficient number of samples. The sample size can be derived empirically by establishing the acceptable confidence interval and resolution.
+
+A second way we can divide up our control and experimental samples are in terms of the frequency with which a recipient receives emails from us labelled "please read." Rather than thinking about recipient responses as completely independent, we could randomly assign individuals into one of three groups:
+	- Never 'please read';
+	- Always 'please read'; and
+	- Infrequent 'please read' - defined as receiving 'please read' in the subject line in no more than 1 in 10 emails.
+
+Hypothesis: If we truly want a two-sample test, we will want to refine our hypothesis, for example:
+I have an actual hypothesis: 'please read' will generally increase the chance that a recipient reads an email. However,  this can look a few different ways:
+	- Null hypothesis: Writing "please read" has no effect on the probability that recipients read an email regardless of the relationship between sender and recipient, email frequency, and email content.
+	- Alternate hypothesis 1: Writing "please read" on an email increases the likelihood that recipients will read the content becauase it will cause them to prioritize that email over all the emails that do not have a similar exhortation in the subject line.
+	- Alternate hypothesis 2: Relationship between the frequency of emails per sender that contains "please read" and the odds that a recipient will read compared to emails from the same recipient whose subject lines do not contain "please read." Prior conditions matter under this hypothesis, and likelihood of reading an email is not an independent event. I base this on the habituation that occurs from any alarm, even alarms indicating critical medical information.
+
+Outcome measures:
+- Average and standard deviation for % recipients who read an email (for emails to multiple recipients);
+- Average and standard deviation for the time between receiving an email and reading an email;
+- Number/% of emails that were deleted or archived without reading
+- Number/% of responses received per subject line per email
+- Email rule changes during study period. People can use email rules to prioritize or de-prioritize emails based on sender or subject.
+- Number of emails recipient previously received, by 'please read' status
+ 
+Other measures: We would want to track a number of other metrics to minimize or at least explain confounding variables, including:
+- Email topic;
+- Sentiment of the subject line and content, excluding "please read" label;
+- Whether a reply was generated automatically (e.g., out of office notification);
+- Whether an email contained a request for action or response;
+- Whether an email's subject contained a request for action or response;
+- Date and time an email landed in the recipient's inbox, since the time of day and day of week may also be correlated with a recipient's likelihood to respond;
+- Time since last log-in by recipient at the time of email receipt;
+- The relationship between sender and recipient (if available), specifically:
+	- Friend or family;
+	- Have employed at least once (includes healthcare providers, accountants, and contractors);
+	- Have worked on at least one project together or served on at least one committee together in a professional or hobby space;
+	- Have had at least one in-person encounter;
+	- Have had at least one one-on-one encounter; or
+	- None of the above.
+- Recipient demographics, including fluency in the language in which email was composed; and
+- Recipient's email prioritization process.
+
+Some of these may be harder to obtain than others. Most of the metrics should be easy to obtain through email providers' SDKs. However, the recipient's language proficiency, recipient's relationship to the sender, and prioritization process would likely have to be collected through self-report. While self-report is more inaccurate than most automated metric collection methods, recipients' reports on their priortization methods may give us important information causal information that would be difficult to obtain through the metrics alone, and help us refine our hypothesis for future research. 
