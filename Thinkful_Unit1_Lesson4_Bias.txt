@@ -1,0 +1,27 @@
+Title: Bias Drill
+Author: Naomi Hernandez
+Date: 2019-03-25
+
+Source of bias for the following scenarios:
+
+1) You're testing advertising emails for a bathing suit company and you test one version of the email in February and the other in May.
+	- Season/ proximity to summare
+	- Differences in clientele, including:
+		- Socioeconomic;
+		- Loyalty to store;
+		- Age;
+		- Gender; or
+		- Race.
+
+2) You open a clinic to treat anxiety and find that the people who visit show a higher rate of anxiety than the general population.
+	- This is a form of self-selection: people who experience higher anxiety levels are more likely to seek out an anxiety clinic than the general population.
+	- Reference patterns may play into this. If providers, even primary care providers, who recognize anxiety refer those patients to the anxiety clinic, that would also impact things.
+	- It could be the neighborhood is just an anxious neighborhood due to employment/ educational trends.
+
+3) You launch a new ad billboard based campaign and see an increase in website visits in the first week.
+	- Were there other marketing or SEO efforts that could also have implemented? Featured on Oprah? You could verify by triangulating IP addresses (giving region) to billboard locations. If they intersect then maybe.
+
+4) You launch a loyalty program but see no change in visits in the first week. 
+	- Have you told anyone about the loyalty program?
+	- Have you been seeing a decrease in visits and this is actually an increase?
+	- Is it December 26?
