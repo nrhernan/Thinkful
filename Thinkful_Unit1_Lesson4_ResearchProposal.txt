@@ -1,0 +1,11 @@
+Title: Research Proposal
+Author: Naomi Hernandez
+Date: 2019-03-25
+
+Situation: The Sith Lords are concerned that their recruiting slogan, "Give In to Your Anger," isn't very effective. Darth Vader develops an alternative slogan, "Together We Can Rule the Galaxy." They compare the slogans on two groups of 50 captured droids each. In one group, Emperor Palpatine delivers the "Anger" slogan. In the other, Darth Vader presents the "Together" slogan. 20 droids convert to the Dark Side after hearing Palpatine's slogan, while only 5 droids convert after hearing Vader's. The Sith's data scientist concludes that "Anger" is a more effective slogan and should continue to be used.
+
+Problem: We want to recruit more Sith than we are currently recruiting.
+
+Hypothesis: The slogan "Give in to Your Anger" doesn't appeal to today's youth. It feels old-fashioned. Also, today's youth are career-oriented and more pragmatic than their parents. The slogan "Together We Can Rule the Galaxy" appeals to their practical ambitions rather than the last generation's need for emotional expression.
+
+Testing Method: This experiment lends itself to A/B testing. Our metrics of interest would be the number of individuals we attract to our recruiting events, as well as the number of participants apply to a Sith master or reach out to their local Sith recruitment office regarding further information. We can test this by running targeted ads on global social media sites with both slogans and measure click-through rates, as well as conversion rates (where a conversion is signing up for a recruitment event). Moreover, some of the recruitment events will feature the old slogan, some will feature the new. We will track the outcomes of each event, and analyze by market as well as in aggregate to avoid Simpson's paradox.
