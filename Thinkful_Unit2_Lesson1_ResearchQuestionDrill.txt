@@ -1,0 +1,33 @@
+Title: Thinkful Unit 2 Lesson 1, Research Question Drill 
+Author: Naomi Hernandez 
+Date: 2019-04-02
+
+1. What is the 1994 rate of juvenile delinquency in the U.S.? 
+Good question: specific and measurable. However, we would want to define "juvenile delinquency" so that we could measure it. We could look at rate of convictions, recidivism, escalation, and/or rehabilitation.
+
+2. What can we do to reduce juvenile delinquency in the U.S.? 
+Bad question. First of all, we know something about juvenile delinquency--at least enough to formulate an evidence-based hypothesis. We would be better served to start with a few specific interventions, or at least intervention types, and then ask if they reduce juvenile delinquency as defined operationally.
+
+3. Does education play a role in reducing juvenile delinquents' return to crime? 
+Room for improvement. We could ask any number of things, including to what extent education reduces recidivism, whether we observe a dose-dependent relationship between education and recidivism, and what educational modes are most and least effective in reducing recidivism.
+
+4. How many customers does AT&T currently serve in Washington, DC? 
+Good question. It is specific and measurable.
+
+5. What factors lead consumers to choose AT&T over other service providers? 
+We would probably want to specify which of AT&T services we're interested in, as the factors might be different.
+
+6. How can AT&T attract more customers? 
+Again, what service are we talking about? How many more is a sufficient number? Rephrase: what features are effective in attracting new AT&T DirecTV customers?
+
+7. Why did the Challenger Shuttle explode? 
+Which factors were most likely to have directly caused the Challenger Shuttle to explode?
+
+8. Which genes are associated with increased risk of breast cancer? 
+Good question.
+
+9. Is it better to read to children at night or in the morning? 
+What does "better" mean in this context? We could be asking when children are more likely to enjoy being read to, or whether children are more likely to retain content if they're read to at night vs in the morning, or 
+
+10. How does Google’s search algorithm work? 
+You know, that's actually not a bad question. We would probably want to be more specific about our outcome. Are we asking because we want to optimize our website's SEO or because we're interested in designing a new search engine?
