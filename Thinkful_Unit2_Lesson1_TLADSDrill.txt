@@ -1,0 +1,30 @@
+Title: Thinkful Unit 2 Lesson 1, TLADS Drill
+Author: Naomi Hernandez
+Date: 2019-04-09
+
+Country, categorical
+There is inherent order in countries. The only reason numeric values were assigned is to yield consistent and memory-efficient values.
+
+Respondent's identification number, categorical (and not useful)
+In reality we wouldn't want to use this as a variable since it isn't generalizable. However, gun to my head it's a categorical variable because there is no inherent order to respondents, and the distance between these numbers has no meaning.
+
+Year, ratio
+There is both a rank order to year, and a zero point--two years before the first survey year.
+
+TV watching, ratio
+There is both a rank order, a zero point, and a specified and consistent amount between answers, up until 7. This is a discrete distribution.
+
+ppltrst, pplfair, pplhlp, happy
+I could seen an argument for either ordinal or interval. These would not be categorical because there is a rank order--people are being asked to choose a value between 0 and 10. However, there is no zero point. I don't even know what zero would mean in this context. Whether these variables count as interval or ordinal would hinge on whether one can compare directly between values. There is no guarantee that the increase from 7 to 8 on happiness is the same between 1 and 2. By the same token, since participants were asked to pick a number on the number line and since most people default to understanding numbers as being uniformly spaced, we could also make an argument that in practice we could treat the data as though it were interval data. If we wanted to be strict, though, we would probably have to treat it as ordinal.
+
+sclmeet, sclact, ordinal
+It is more apparent in these variables that there is no consistent difference between scale degrees. In addition, there is no zero point. There is, however, rank order. We would therefore most likely treat these variables as categorical in practice.
+
+Gender, categorical
+There is no rank order to the two genders (despite what certain administrations might think).
+
+Age of respondent, ratio
+There is a rank order, one can compare quantitatively between values, and there is a zero point.
+
+Partner, categorical
+There is no rank order to whether or not an individual lives with a partner.
