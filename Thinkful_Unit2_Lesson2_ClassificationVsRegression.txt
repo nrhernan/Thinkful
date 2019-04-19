@@ -1,0 +1,11 @@
+Title: Thinkful Unit 2 Lesson 2 Regression vs Classification
+Author: Naomi Hernandez
+Date: 2019-04-18
+
+1) The amount [of money] someone will spend on a site in the next month: regression. This is a continuous outcome variable. 
+2) What color car someone is going to buy: classification. Nominal outcome variable. 
+3) How many children will a family have: could probably be regression or classification. It's a discrete bounded variable and each value has a calculable relationship to every other variable. 
+4) If someone will sign up for a service: classification. Binary outcome variable. 
+5) The number of times someone will get sick in a year: this could also probably be both since, like number of children, it is a bounded interval. It probably would make more sense as a classification problem, unless employers were interested in tracking something like whether an employee was faking illness. 
+6) The probability someone will get sick in the next month: classification. Binary outcome variable. 
+7) What medicine to give a specific patient: classification. Multi-level categorical outcome variable. 
