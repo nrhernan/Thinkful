@@ -1,0 +1,12 @@
+Title: Predicting Payment Timeliness from Payment Categorization Using KNN
+Author: Naomi Hernandez
+Date: 2019-05-06
+Thinkful: Unit 3, Lesson 1
+
+DRILL: Let's say we work at a credit card company and we're trying to figure out if people are going to pay their bills on time. We have everyone's purchases, split into four main categories: groceries, dining out, utilities, and entertainment. What are some ways you might use KNN to create this model? What aspects of KNN would be useful?
+
+KNN could be a useful tool for predicting whether people are goign to pay their bills on time in the following ways:
+- The way this is framed, this is a classification problem (1=pay on time, 0=not pay on time). However, this could also be a regression problem where we are trying to estimate the number of days around the bill due date on which the bill will be paid. KNN can handle either.
+- KNN does not make assumptions about the nature of the relationships between predictor and outcome variables. Unlike regression, we do not need to make transformations to ensure, for example, linear relationships between predictor and outcome variables. Likewise, we do not have to explicitly create features for variable interactions. However, we would want to scale variables along a consistent scale.
+
+The way we could use KNN in practice would be first to create features which might be helpful. We might want to look at the % of each bill spent on each of the features as well as the absolute numbers. We might also want to look at the difference between the dollar amount and/or % of the bill spent on each category compared to the average from the previous six months. However, one place we might run into issues is if we wanted to consider whether the person had paid their previous bill on time or late, since KNN works better with continuous variables compared to binary.
