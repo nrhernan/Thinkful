@@ -1,0 +1,43 @@
+1) Predict the running times of prospective Olympic sprinters using data from the last 20 Olympics.
+Answer: This is a regression problem because we want to predict a continuous value (running time). We can therefore use:
+- Linear regression. Since we want to predict times we would probably want to use some kind of regularization, either lasso or ridge.
+- SVM. If the relationships are too complicated to be estimated by a model that assumes linear relationships, we could also use SVM which allows us to find more complicated boundaries in higher dimensional spaces.
+- Random forest or boosted gradient. Both of these ensemble methods can be used for regression. However, we would have to be mindful of the potential for boosted gradient to overfit.
+- Ensemble with multiple regression models and/or SVM and or/ tree models combined. Ensembles can also take input from different types of models.
+
+2) You have more features (columns) than rows in your dataset.
+- Regularized regression. We definitely want some kind of regularization. This might be a good use case for l2 regularization, which can set coefficients to zero.
+- SVM. SVM, at least as implemented by SKLearn, includes a regularization paramter.
+
+Either of these methods can be used for regression or classification.
+
+3) Identify the most important characteristic predicting likelihood of being jailed before age 20.
+- Random forest/boosted gradient. Either of these can be used to identify feature importance.
+- L1/L2 regularization used with logistic regression. While L1 cannot reduce coefficient values to zero, they can dramatically reduce coefficient values. Sorting by coefficient value can therefore still rank values.
+
+4) Implement a filter to “highlight” emails that might be important to the recipient
+This is a classification problem (important vs. not important) and could therefore employ:
+- Logistic regression, probably with regularization (though technically you could use vanilla logistic regression). The decision between ridge and lasso regression might come down to the number of variables (l2 can decrease coefficient values to zero), computation time if there's a significant difference (I'm not sure which would take longer once the model had been trained), or just whichever provides better accuracy. I'm not sure if people would prefer Type 1 to Type 2 error, honestly. My hunch is that people would tolerate increased false positives for better sensitivity, since the cost of missing a genuinely important email could be steep. But there would be a threshold. No one would appreciate 100% of their emails classified as important.
+- SVM: again, this can be used for classification problems, though the computation time might make it prohibitive.
+- Random forest/boosted gradient: Since the computational cost tends to be in BUILDING the trees, this should be a viable production option. Plus, ensemble methods tend to out-perform individual models, and are robust against assumptions such as particular distributions.
+
+5) You have 1000+ features.
+We have a few options here:
+- Some kind of regularization would be a good idea in order to mitigate the effects of correlated variables. This could mean regularized regression or SVM;
+- Ensemble methods that inform on feature importance in order to reduce features;
+- Dimension reduction (PCA, SVD, or partial squares regression)
+
+6) Predict whether someone who adds items to their cart on a website will purchase the items.
+This is a classification problem, which could be modeled with:
+- Logistic regression with or without regularization;
+- SVM classifier;
+- Decision tree classifier (probably not a single tree, honestly); and
+- Ensemble methods like random forest or boosted gradient.
+
+7) Your dataset dimensions are 982400 x 500
+
+8) Identify faces in an image.
+This is a classification problem, but most image recognition problems use neural networks of some sort.
+
+9) Predict which of three flavors of ice cream will be most popular with boys vs girls.
+This is still a classification problem where boy vs. girl
