@@ -1,0 +1,20 @@
+Title: Drill: Unsupervised or supervised?
+Author: Naomi Hernandez
+Created: 2019-12-14
+
+Instructions: For each of these scenarios decide if you could use supervised or unsupervised techniques, or both!
+
+1. Define the likelihood that an individual will contract a specific disease.
+Answer: This is a supervised learning problem. The outcome is defined clearly and has a specific scope.
+
+2. Translate a set of images into varibles for modeling.
+Answer: This is most likely an unspervised learning task. There aren't specific success criteria, instead the task is trying to capture characteristics of the image.
+
+3. An ecommerce company wants to identify power users.
+Answer: This problem sounds like a supervised problem, though it might also have an unsupervised component if the company only has a vague definition for "power users". Most likely, though, the company is interested in users that make significantly more purchases (or sales) or spends significantly more per purchase on their site compared to the average user. Since this is a specific and quantifiable outcome, supervised techniques make the most sense for identifying these individuals.
+
+4. The same company wants to see shopping patterns in users.
+Answer: This is an unsupervised problem as it is concerned with the patterns themselves, regardless of outcome per se.
+
+5. You want to reduce the number of variables inputting into your random forest model
+Answer: This might include supervised and unsupervised techniques. I might use K best, which is a supervised technique, or PCR which is unsupervised.
